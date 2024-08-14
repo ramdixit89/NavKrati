@@ -135,7 +135,6 @@
     }
 }
 
-
 /*** Header ***/
 .carousel-caption {
     top: 0;
@@ -342,9 +341,11 @@
 
 @media (min-width: 768px) {
 
+    
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
+        
     }
 }
 
@@ -465,3 +466,12 @@
 }
 /* Navbar Color */
 
+    .logo-img{
+          background-color: #001D23;
+          padding: 7px;
+          border-radius: 30px;
+          margin-top: 10px;
+    }
+    .nav-tog-btn{
+        background-color: #001D23;
+    }
